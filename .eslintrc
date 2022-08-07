@@ -1,0 +1,44 @@
+{
+    "extends": [
+        "plugin:react/recommended",
+        "prettier",
+        "@tencent/eslint-config-tencent"
+    ],
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "node": true,
+        "es6": true
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "plugins": ["react", "react-hooks"],
+    "globals": {
+        "Txplayer": true,
+        "WeixinJSBridge": true,
+        "TxvLive": true,
+        "tabc": true
+    },
+    "rules": {
+        "arrow-parens": ["error", "always"],
+        "operator-linebreak": ["off"], // [违反腾讯规范] 兼容prettier格式化，暂时覆盖腾讯规范
+        "camelcase": ["error", {
+            "allow": ["^UNSAFE_", "pgv_site"]
+        }], // 允许部分非驼峰写法
+        "no-underscore-dangle": ["off"], // 允许下划线开头变量
+        "implicit-arrow-linebreak": ["off"], // 兼容prettier格式化，允许箭头函数箭头后折行
+        "function-paren-newline": ["off"], // 兼容prettier格式化，允许一个参数的函数参数结尾换行
+        "newline-per-chained-call": ["warn", {
+            "ignoreChainWithDepth": 3
+        }],
+        "react/prop-types": "off",
+        "indent": [
+            "error", 2,
+            { "ignoredNodes": ["TemplateLiteral"] }
+        ],
+        "template-curly-spacing": "off"
+    }
+}

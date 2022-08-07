@@ -1,0 +1,33 @@
+.tvPlay .banner {
+  margin-top: 0.7rem;
+  height: 2.8rem!important;
+  background-size: 100% auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.tvPlay .con {
+  margin-top: 0;
+}
+
+.tvPlay .one .titleLogo {
+  width: 100%;
+  background: #000;
+  background-size: 100% auto;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.border1 {
+  border-top-left-radius: 0.235rem !important;
+  border-top-right-radius: 0.235rem !important;
+  border-bottom-right-radius: 0rem !important;
+  border-bottom-left-radius: 0rem !important;
+}
+
+.borderr {
+  border-top-left-radius: 0rem !important;
+  border-top-right-radius: 0rem !important;
+  border-bottom-right-radius: 0.235rem !important;
+  border-bottom-left-radius: 0.235rem !important;
+}

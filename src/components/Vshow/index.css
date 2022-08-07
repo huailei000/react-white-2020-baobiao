@@ -1,0 +1,11 @@
+.vshow .banner {
+  margin-top: 0.7rem;
+  height: 2.8rem!important;
+  background-size: 100% auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.tabone .rank {
+  display: none;
+}

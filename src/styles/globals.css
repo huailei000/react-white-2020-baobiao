@@ -1,0 +1,105 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Microsoft Yahei", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  max-width: 4.14rem;
+  margin: 0 auto;
+  background: #000;
+}
+
+@import './Home.module.css';
+@import './List.module.css';
+@import '../components/Table/index.css';
+
+.swiperPage {
+  width: 100%;
+  background: #000;
+  padding-bottom: 0.35rem;
+}
+
+.swiperPage .banner {
+  margin-top: 0.7rem;
+  height: 2.8rem;
+  background-image: -webkit-image-set(url("https://mat1.gtimg.com/qqcdn/xw/whitePaper/static/mv_bg.png") 2x);
+  background-size: 100% auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.swiperPage .bangdan {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 0.25rem;
+}
+
+.swiperPage .bangdan::first-child {
+  margin-top: 0;
+}
+
+.swiperPage .bangdan .titleLogo {
+  width: 100%;
+  background: #000;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.swiperPage .bangdan .con {
+  background: #FFFFFF;
+  border-radius: 0.235rem;
+  overflow: hidden;
+  margin: 0rem 0.15rem 0;
+}
+
+.swiperPage .bangdan .mt0 {
+  margin: -0.1rem 0.15rem 0 !important;
+}
+
+.swiperPage .bangdan .mt20 {
+  margin: -0.2rem 0.15rem 0 !important;
+}
+
+.swiperPage .bangdan .title {
+  font-size: 0.21rem;
+  width: 3rem;
+  margin: 0.18rem auto 0;
+  text-align: left;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #222222;
+  line-height: 0.32rem;
+}
+
+.swiperPage .bangdan .info {
+  width: 3rem;
+  margin: 0 auto 0;
+  text-align: left;
+  font-size: 0.14rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #888888;
+  line-height: 0.2rem;
+}
+
+@import '../components/TvPlay/index.css';
+@import '../components/Music/index.css';
+@import '../components/Vshow/index.css';

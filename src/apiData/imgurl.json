@@ -1,0 +1,11 @@
+{
+  "path": "/",
+  "type": "manifest",
+  "manifest": [
+    "https://mat1.gtimg.com/qqcdn/xw/whitePaper/static/fengmian1.png",
+    "https://mat1.gtimg.com/qqcdn/xw/whitePaper/static/star_bg.png",
+    "https://mat1.gtimg.com/qqcdn/xw/whitePaper/static/mxtile1.png",
+    "https://mat1.gtimg.com/qqcdn/xw/whitePaper/static/mxtile2.png",
+    "https://mat1.gtimg.com/qqcdn/xw/whitePaper/static/mxtitle3.png"
+  ]
+}

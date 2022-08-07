@@ -1,0 +1,27 @@
+.ListPage {
+  background: #000;
+}
+
+.gotoDown {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.gotoDown a {
+
+  display: block;
+  background-color: #000;
+  background-image: -webkit-image-set(url("https://mat1.gtimg.com/qqcdn/xw/whitePaper/static/down.png") 2x);
+  background-size: 100% auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 3.345rem;
+  height: 0.835rem;
+  margin: 0.2rem auto 0;
+  text-indent: -9999px;
+}
+
+.swipercon {
+  width: 100%;
+  height: 100%;
+}

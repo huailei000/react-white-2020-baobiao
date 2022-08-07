@@ -1,0 +1,194 @@
+.tableList {
+    background: #FFFFFF;
+    border-radius: 0.235rem;
+    width: 3.45rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.sanTOP {
+    position: relative;
+    border-radius: 0.235rem 0.235rem 0px 0px;
+    overflow: hidden;
+}
+
+.tableList .logo {
+    margin: 0.125rem auto 0.065rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    height: 0.12rem;
+}
+
+.tableList .title {
+    width: 100%;
+    height: 0.225rem;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+}
+
+.tableList .people {
+    position: relative;
+    margin: 0.07rem auto 0.175rem;
+    height: 1.415rem;
+}
+
+.oneRank {
+    position: relative;
+    width: 0.895rem;
+    height: 1.17rem;
+    float: left;
+    margin: 0.265rem 0.1rem 0;
+}
+
+.oneRank img {
+    width: 0.895rem;
+    height: 1.085rem;
+}
+
+.oneRank:nth-child(1) {
+    position: absolute;
+    margin-top: 0;
+    width: 1.095rem;
+    height: 1.365rem;
+    left: 50%;
+    margin-left: -0.5rem;
+}
+
+.oneRank:nth-child(1) img {
+    width: 1.095rem;
+    height: 1.325rem;
+}
+
+.oneRank:nth-child(3) {
+    float: right;
+}
+
+.oneRank:nth-child(2) .precent {
+    color: #DDD0C3;
+}
+
+.oneRank:nth-child(3) .precent {
+    color: #B38368;
+}
+
+.oneRank p {
+    margin: 0;
+}
+
+.oneRank .name {
+    position: absolute;
+    left: 0;
+    bottom: 0.305rem;
+    height: 0.24rem;
+    font-size: 0.17rem;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 0.24rem;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    text-shadow: 0px 0px 0.03rem rgba(0, 0, 0, 0.5);
+}
+
+.oneRank .name .king {
+    display: block;
+    position: absolute;
+    right: 0.25rem;
+    top: -0.05rem;
+    width: 0.155rem;
+    height: 0.145rem;
+    background-image: -webkit-image-set(url("https://mat1.gtimg.com/qqcdn/xw/whitePaper/static/king.png") 2x);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.oneRank .name .king1 {
+    right: 0.2rem;
+}
+
+.oneRank .precent {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    height: 0.25rem;
+    font-size: 0.14rem;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    line-height: 0.25rem;
+    color: #FFDA63;
+    background: #0F141C;
+    border-radius: 0.13rem;
+}
+
+.tableList ul {
+    margin: 0;
+    padding: 0;
+}
+
+.tableList li {
+    height: 0.44rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    line-height: .44rem;
+    font-size: 0.14rem;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #222222;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.tableList li:nth-child(even) {
+    background: #F6F6F6;
+}
+
+.tableList li span {
+    display: block;
+    float: left;
+    width: 0.55rem;
+}
+
+.tableList li span.name {
+    width: 0.82rem;
+}
+
+.tableList li span:last-child {
+    width: 1.53rem;
+}
+
+.tableList li:first-child {
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #000000;
+}
+
+.tableList li:last-child {
+    border: none;
+}
+
+.tableList li div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.three span:first-child {
+    width: 25% !important;
+}
+
+.three span {
+    width: 35% !important;
+}
+
+.three span:last-child {
+    width: 40% !important;
+}
