@@ -25,6 +25,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
+<!-- "@tencent/news-jsapi": "^1.7.7", -->
+<!-- "@tencent/xw-react-atta": "^0.1.3", -->
+<!-- "@tencent/eslint-config-tencent": "^0.12.2", -->
+
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

@@ -16,12 +16,12 @@ export const setReturnBtnActionType = (status) => {
   if (!app.qqnews.is) {
     return Promise.resolve('this is browser');
   }
-  import('@tencent/news-jsapi')
-    .then(({ setReturnBtnActionType }) => {
-      setReturnBtnActionType(status);
-      console.log('返回键直接关闭按钮', status);
-    })
-    .catch((e) => {
-      console.log(e);
-    });
+  // import('@tencent/news-jsapi')
+  //   .then(({ setReturnBtnActionType }) => {
+  //     setReturnBtnActionType(status);
+  //     console.log('返回键直接关闭按钮', status);
+  //   })
+  //   .catch((e) => {
+  //     console.log(e);
+  //   });
 };

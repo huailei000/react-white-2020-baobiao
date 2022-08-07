@@ -2,13 +2,13 @@
 /* eslint-disable eqeqeq */
 /* eslint-disable no-undef */
 import React from 'react';
-import { AttaTree, AttaClick } from '@tencent/xw-react-atta';
+// import { AttaTree, AttaClick } from '@tencent/xw-react-atta';
 import { movie, tvplay, music, vshow } from '../../apiData/urls';
 const TabCon = (props) => {
     const { currentIndex } = props;
     return (
         <div>
-            <AttaTree data={{ pagetype: 'hd', qudao: 'whitepage' }}>
+            {/* <AttaTree data={{ pagetype: 'hd', qudao: 'whitepage' }}>
                 <AttaClick data={{ fun: 'movie_click' }}>
                     {currentIndex == 0 ? <div className="tab active0"><a href={movie}>电影篇</a></div> : <div className="tab"><a href={movie}>电影篇</a></div>}
                 </AttaClick>
@@ -21,7 +21,7 @@ const TabCon = (props) => {
                 <AttaClick data={{ fun: 'vshow_click' }}>
                     {currentIndex == 3 ? <div className="tab active3"><a href={vshow}>综艺篇</a></div> : <div className="tab"><a href={vshow}>综艺篇</a></div>}
                 </AttaClick>
-            </AttaTree>
+            </AttaTree> */}
         </div>
 
     );
